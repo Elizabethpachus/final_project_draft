@@ -3,10 +3,20 @@ library(markdown)
 library(shiny)
 library(tidyverse)
 
+
+# If you run these lines of code, then the read_rds works and can read the data into a local variabel
+
+final_data_map_app <- read_rds("project_shiny/final_data_map.rds")
+
+final_data_suicide_app <- read_rds("project_shiny/final_data_suicide.rds")
+
+# However when you run the app, they cause it to crash because the directory is unavaliable
+
+# These lines of code below shoud work, but they don't for some reason 
+
 final_data_map_app <- read_rds("final_data_map.rds")
 
 final_data_suicide_app <- read_rds("final_data_suicide.rds")
-
 
 # Define UI for application that displays my graph
 ui <- fluidPage(
