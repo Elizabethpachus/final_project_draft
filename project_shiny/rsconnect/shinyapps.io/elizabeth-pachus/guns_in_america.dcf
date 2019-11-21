@@ -1,0 +1,12 @@
+name: guns_in_america
+title: guns_in_america
+username:
+account: elizabeth-pachus
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 1501756
+bundleId: 2605694
+url: https://elizabeth-pachus.shinyapps.io/guns_in_america/
+when: 1574299299.67653
+asMultiple: FALSE
+asStatic: FALSE

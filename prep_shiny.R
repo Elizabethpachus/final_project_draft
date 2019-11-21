@@ -75,8 +75,8 @@ final_data_suicide <- final_data %>%
 
 # Writing out the files into rds
 
-write_rds(final_data, "project_draft/final_data.Rds")
+write_rds(final_data, "project_shiny/final_data.rds")
 
-write_rds(final_data_suicide, "project_draft/final_data_suicide.Rds")
+write_rds(final_data_suicide, "project_shiny/final_data_suicide.rds")
 
-write_rds(final_data_map, "project_draft/final_data_map.Rds")
+write_rds(final_data_map, "project_shiny/final_data_map.rds")
